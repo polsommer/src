@@ -51,7 +51,6 @@ void CollisionCallbacks::install()
 	int const miningAsteroidDynamic = static_cast<int>(SharedObjectTemplate::GOT_ship_mining_asteroid_dynamic);
 	int const building = static_cast<int>(SharedObjectTemplate::GOT_building);
 	int const installation = static_cast<int>(SharedObjectTemplate::GOT_installation);
-    int const onDoCollisionWithTerrain = static_cast<int>(SharedObjectTemplate::GOT_onDoCollisionWithTerrain);
 
 
 	CollisionCallbackManager::registerOnHitFunction(CollisionCallbacksNamespace::onHitDoCollisionWith, shipFighter, shipCapital);
