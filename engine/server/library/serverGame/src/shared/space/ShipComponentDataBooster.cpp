@@ -90,22 +90,22 @@ bool ShipComponentDataBooster::readDataFromComponent (TangibleObject const & com
 	DynamicVariableList const &  objvars = component.getObjVars ();
 
 	if (!objvars.getItem (Objvars::boosterEnergyCurrent, m_boosterEnergyCurrent))
-		WARNING (true, ("ShipComponentDataBooster [%s] has no boosterEnergyCurrent [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyCurrent.c_str ()));
+		WARNING (false, ("ShipComponentDataBooster [%s] has no boosterEnergyCurrent [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyCurrent.c_str ()));
 
 	if (!objvars.getItem (Objvars::boosterEnergyMaximum, m_boosterEnergyMaximum))
-		WARNING (true, ("ShipComponentDataBooster [%s] has no boosterEnergyMaximum [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyMaximum.c_str ()));
+		WARNING (false, ("ShipComponentDataBooster [%s] has no boosterEnergyMaximum [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyMaximum.c_str ()));
 
 	if (!objvars.getItem (Objvars::boosterEnergyRechargeRate, m_boosterEnergyRechargeRate))
-		WARNING (true, ("ShipComponentDataBooster [%s] has no sboosterEnergyRechargeRate [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyRechargeRate.c_str ()));
+		WARNING (false, ("ShipComponentDataBooster [%s] has no sboosterEnergyRechargeRate [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyRechargeRate.c_str ()));
 
 	if (!objvars.getItem (Objvars::boosterEnergyConsumptionRate, m_boosterEnergyConsumptionRate))
-		WARNING (true, ("ShipComponentDataBooster [%s] has no boosterEnergyConsumptionRate [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyConsumptionRate.c_str ()));
+		WARNING (false, ("ShipComponentDataBooster [%s] has no boosterEnergyConsumptionRate [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterEnergyConsumptionRate.c_str ()));
 
 	if (!objvars.getItem (Objvars::boosterAcceleration, m_boosterAcceleration))
-		WARNING (true, ("ShipComponentDataBooster [%s] has no boosterAcceleration [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterAcceleration.c_str ()));
+		WARNING (false, ("ShipComponentDataBooster [%s] has no boosterAcceleration [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterAcceleration.c_str ()));
 
 	if (!objvars.getItem (Objvars::boosterSpeedMaximum, m_boosterSpeedMaximum))
-		WARNING (true, ("ShipComponentDataBooster [%s] has no boosterSpeedMaximum [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterSpeedMaximum.c_str ()));
+		WARNING (false, ("ShipComponentDataBooster [%s] has no boosterSpeedMaximum [%s]", component.getNetworkId ().getValueString ().c_str (), Objvars::boosterSpeedMaximum.c_str ()));
 
 	return true;
 }
