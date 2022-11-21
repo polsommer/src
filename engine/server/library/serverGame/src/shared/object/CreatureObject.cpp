@@ -8946,30 +8946,24 @@ bool CreatureObject::isAppearanceEquippable(const char *appearanceTemplateName)
 
 		switch (species)
 		{
-			case SharedCreatureObjectTemplate::SP_human:       { column =  1; } break;
-			case SharedCreatureObjectTemplate::SP_rodian:      { column =  3; } break;
-			case SharedCreatureObjectTemplate::SP_monCalamari: { column =  5; } break;
-			case SharedCreatureObjectTemplate::SP_wookiee:     { column =  7; } break;
-			case SharedCreatureObjectTemplate::SP_twilek:      { column =  9; } break;
-			case SharedCreatureObjectTemplate::SP_trandoshan:  { column = 11; } break;
-			case SharedCreatureObjectTemplate::SP_zabrak:      { column = 13; } break;
-			case SharedCreatureObjectTemplate::SP_bothan:      { column = 15; } break;
-			case SharedCreatureObjectTemplate::SP_ithorian:    { column = 17; } break;
-			case SharedCreatureObjectTemplate::SP_sullustan:   { column = 19; } break;
-			case SharedCreatureObjectTemplate::SP_nightsister:   { column = 21; } break;
-			case SharedCreatureObjectTemplate::SP_nikto:   { column = 23; } break;
-			case SharedCreatureObjectTemplate::SP_aqualish:   { column = 25; } break;
-			case SharedCreatureObjectTemplate::SP_arcona:   { column = 27; } break;
-			case SharedCreatureObjectTemplate::SP_bith:   { column = 29; } break;
-			case SharedCreatureObjectTemplate::SP_chiss:   { column = 31; } break;
-			case SharedCreatureObjectTemplate::SP_devaronian:   { column = 33; } break;
-			case SharedCreatureObjectTemplate::SP_gran:   { column = 35; } break;
-			case SharedCreatureObjectTemplate::SP_ishitib:   { column = 37; } break;
-			case SharedCreatureObjectTemplate::SP_klaatu:   { column = 39; } break;
-			case SharedCreatureObjectTemplate::SP_marauder:   { column = 41; } break;
-			case SharedCreatureObjectTemplate::SP_nautolan:   { column = 43; } break;
-			case SharedCreatureObjectTemplate::SP_togruta:   { column = 45; } break;
-			case SharedCreatureObjectTemplate::SP_weequay:   { column = 47; } break;
+                        case SharedCreatureObjectTemplate::SP_human:       { column =  1; } break;
+                        case SharedCreatureObjectTemplate::SP_rodian:      { column =  2; } break;
+                        case SharedCreatureObjectTemplate::SP_monCalamari: { column =  3; } break;
+                        case SharedCreatureObjectTemplate::SP_wookiee:     { column =  4; } break;
+                        case SharedCreatureObjectTemplate::SP_twilek:      { column =  5; } break;
+                        case SharedCreatureObjectTemplate::SP_trandoshan:  { column =  6; } break;
+                        case SharedCreatureObjectTemplate::SP_zabrak:      { column =  7; } break;
+                        case SharedCreatureObjectTemplate::SP_bothan:      { column =  8; } break;
+                        case SharedCreatureObjectTemplate::SP_ithorian:    { column =  9; } break;
+                        case SharedCreatureObjectTemplate::SP_sullustan:   { column = 10; } break;
+                        case SharedCreatureObjectTemplate::SP_nikto:       { column = 11; } break;
+                        case SharedCreatureObjectTemplate::SP_aqualish:    { column = 12; } break;
+                        case SharedCreatureObjectTemplate::SP_arcona:      { column = 13; } break;
+                        case SharedCreatureObjectTemplate::SP_bith:        { column = 14; } break;
+                        case SharedCreatureObjectTemplate::SP_devaronian:  { column = 15; } break;
+                        case SharedCreatureObjectTemplate::SP_gran:        { column = 16; } break;
+                        case SharedCreatureObjectTemplate::SP_marauder:    { column = 17; } break;
+                        case SharedCreatureObjectTemplate::SP_weequay:     { column = 18; } break;
 			default: { } break;
 		}
 
