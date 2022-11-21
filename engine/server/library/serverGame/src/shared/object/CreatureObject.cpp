@@ -8956,6 +8956,20 @@ bool CreatureObject::isAppearanceEquippable(const char *appearanceTemplateName)
 			case SharedCreatureObjectTemplate::SP_bothan:      { column = 15; } break;
 			case SharedCreatureObjectTemplate::SP_ithorian:    { column = 17; } break;
 			case SharedCreatureObjectTemplate::SP_sullustan:   { column = 19; } break;
+			case SharedCreatureObjectTemplate::SP_nightsister:   { column = 21; } break;
+			case SharedCreatureObjectTemplate::SP_nikto:   { column = 23; } break;
+			case SharedCreatureObjectTemplate::SP_aqualish:   { column = 25; } break;
+			case SharedCreatureObjectTemplate::SP_arcona:   { column = 27; } break;
+			case SharedCreatureObjectTemplate::SP_bith:   { column = 29; } break;
+			case SharedCreatureObjectTemplate::SP_chiss:   { column = 31; } break;
+			case SharedCreatureObjectTemplate::SP_devaronian:   { column = 33; } break;
+			case SharedCreatureObjectTemplate::SP_gran:   { column = 35; } break;
+			case SharedCreatureObjectTemplate::SP_ishitib:   { column = 37; } break;
+			case SharedCreatureObjectTemplate::SP_klaatu:   { column = 39; } break;
+			case SharedCreatureObjectTemplate::SP_marauder:   { column = 41; } break;
+			case SharedCreatureObjectTemplate::SP_nautolan:   { column = 43; } break;
+			case SharedCreatureObjectTemplate::SP_togruta:   { column = 45; } break;
+			case SharedCreatureObjectTemplate::SP_weequay:   { column = 47; } break;
 			default: { } break;
 		}
 
